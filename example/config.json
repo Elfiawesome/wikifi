@@ -1,0 +1,16 @@
+{
+  "site": {
+    "title": "Chronicles of Lume",
+    "description": "A community wiki for the world of Lume",
+    "logo": "",
+    "favicon": "",
+    "home": "data/welcome/content"
+  },
+  "nav": [
+    { "name": "Home",       "link": "index.html" },
+    { "name": "Characters", "link": "wiki/characters/index.html" },
+    { "name": "Factions",   "link": "wiki/factions/index.html" },
+    { "name": "World",      "link": "wiki/world/index.html" },
+    { "name": "All Pages",  "link": "wiki/all-pages.html" }
+  ]
+}

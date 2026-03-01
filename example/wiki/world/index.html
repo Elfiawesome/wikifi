@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World &ndash; Chronicles of Lume</title>
+  <meta name="description" content="The geography, cities, ruins, and wildernesses that make up the known world of Lume. Everything from the grand City Of Lume to the haunted depths of The Hollow ">
+
+  <link rel="stylesheet" href="../assets/style.css">
+  
+</head>
+<body>
+
+<header class="wiki-header">
+  <div class="wiki-header__inner">
+    <a class="wiki-header__logo" href="../../index.html">
+      
+      <span class="wiki-header__title">Chronicles of Lume</span>
+    </a>
+    <div class="wiki-header__sep"></div>
+    <div class="wiki-header__search">
+      <div class="search-box">
+        <input type="text" id="search-input" class="search-box__input" placeholder="Search wiki…" autocomplete="off">
+        <button class="search-box__btn" onclick="wikiSearch.toggle()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <div class="search-box__results" id="search-results"></div>
+      </div>
+    </div>
+    <nav class="wiki-header__nav">
+      <a class="wiki-header__nav-link" href="../../index.html">Home</a><a class="wiki-header__nav-link" href="../characters/index.html">Characters</a><a class="wiki-header__nav-link" href="../factions/index.html">Factions</a><a class="wiki-header__nav-link" href="../world/index.html">World</a><a class="wiki-header__nav-link" href="../all-pages.html">All Pages</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wiki-layout">
+
+<aside class="wiki-sidebar">
+  <div class="wiki-sidebar__inner">
+    <div class="wiki-sidebar__section">
+      <span class="wiki-sidebar__section-title">Navigation</span>
+      <a class="wiki-sidebar__link" href="../../index.html">Home</a><a class="wiki-sidebar__link" href="../characters/index.html">Characters</a><a class="wiki-sidebar__link" href="../factions/index.html">Factions</a><a class="wiki-sidebar__link" href="../world/index.html">World</a><a class="wiki-sidebar__link" href="../all-pages.html">All Pages</a>
+    </div>
+    <div class="wiki-sidebar__section">
+      <span class="wiki-sidebar__section-title">Wiki</span>
+      <a class="wiki-sidebar__link" href="../../index.html">Home</a>
+      <a class="wiki-sidebar__link" href="../all-pages.html">All Pages</a>
+    </div>
+    
+  </div>
+</aside>
+
+<main class="wiki-main">
+
+  <div class="wiki-page-hero wiki-page-hero--no-image" >
+    
+    <div class="wiki-page-hero__content">
+      <nav class="wiki-breadcrumb"><a class="wiki-breadcrumb__item" href="../../index.html">Home</a><span class="wiki-breadcrumb__sep">/</span><span class="wiki-breadcrumb__item wiki-breadcrumb__item--active">World</span></nav>
+      <h1 class="wiki-page-title" style="--page-accent:#2563eb">
+        <div class="wiki-page-title__icon" style="width:36px;height:36px;display:flex;align-items:center;justify-content:center;color:var(--text-faint)">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg></div>
+        <span>
+          World
+          <span class="wiki-page-title__accent"></span>
+        </span>
+      </h1>
+    </div>
+  </div>
+
+  <div class="wiki-main__inner">
+    <div class="wiki-content wiki-folder-desc"><p>The geography, cities, ruins, and wildernesses that make up the known world of Lume. Everything from the grand <a href="../world/city-of-lume.html" class="wiki-kw" style="--kw-color:#2563eb" title="City of Lume"><span class="wiki-kw__label">City of Lume</span></a> to the haunted depths of <a href="../world/the-hollow.html" class="wiki-kw" style="--kw-color:#6b7280" title="The Hollow"><span class="wiki-kw__label">The Hollow</span></a> is documented here.</p></div>
+    <div class="wiki-folder-index">
+          <div class="wiki-page-grid__title">Contents — 2 items</div>
+          <div class="wiki-page-grid__items"><a class="wiki-page-card" href="city-of-lume.html" style="--card-color:#2563eb">
+                <div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+                <div class="wiki-page-card__body">
+                  <span class="wiki-page-card__name">City of Lume</span>
+                  <span class="wiki-page-card__excerpt">The City of Lume is the largest settlement in the known world and the political, magical, and economic centre of the region. It sits at the mouth of the Vael River on a wide coastal plain, with the el…</span>
+                </div>
+              </a><a class="wiki-page-card" href="the-hollow.html" style="--card-color:#6b7280">
+                <div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+                <div class="wiki-page-card__body">
+                  <span class="wiki-page-card__name">The Hollow</span>
+                  <span class="wiki-page-card__excerpt">The Hollow is the abandoned lower district of City Of Lume, located beneath the Ashwood neighbourhood at the base of the Citadel Ridge. It was evacuated following the Hollow Incident approximately for…</span>
+                </div>
+              </a></div>
+        </div>
+  </div>
+
+
+</main>
+</div>
+
+<footer class="wiki-footer">
+  <div class="wiki-footer__inner">
+    Chronicles of Lume &mdash; powered by <a href="https://github.com/wikifi/wikifi" target="_blank">wikifi</a>
+  </div>
+</footer>
+
+<script>
+  window.WIKI_ASSETS = "../";
+</script>
+<script src="../assets/wiki.js"></script>
+</body>
+</html>

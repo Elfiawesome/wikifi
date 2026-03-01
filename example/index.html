@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chronicles of Lume</title>
+  <link rel="stylesheet" href="wiki/assets/style.css">
+  
+</head>
+<body>
+
+<header class="wiki-header">
+  <div class="wiki-header__inner">
+    <a class="wiki-header__logo" href="index.html">
+      
+      <span class="wiki-header__title">Chronicles of Lume</span>
+    </a>
+    <div class="wiki-header__sep"></div>
+    <div class="wiki-header__search">
+      <div class="search-box">
+        <input type="text" id="search-input" class="search-box__input" placeholder="Search wiki…" autocomplete="off">
+        <button class="search-box__btn" onclick="wikiSearch.toggle()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <div class="search-box__results" id="search-results"></div>
+      </div>
+    </div>
+    <nav class="wiki-header__nav"><a class="wiki-header__nav-link" href="index.html">Home</a><a class="wiki-header__nav-link" href="wiki/characters/index.html">Characters</a><a class="wiki-header__nav-link" href="wiki/factions/index.html">Factions</a><a class="wiki-header__nav-link" href="wiki/world/index.html">World</a><a class="wiki-header__nav-link" href="wiki/all-pages.html">All Pages</a></nav>
+  </div>
+</header>
+
+<div class="wiki-hero" >
+  <div class="wiki-hero__inner">
+    
+    <h1 class="wiki-hero__title">Chronicles of Lume</h1>
+    <span class="wiki-hero__title-accent"></span>
+    <p class="wiki-hero__desc">A community wiki for the world of Lume</p>
+    <div class="wiki-hero__search">
+      <div class="search-box search-box--hero">
+        <input type="text" id="hero-search" class="search-box__input" placeholder="Search…" autocomplete="off">
+        <button class="search-box__btn">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <div class="search-box__results" id="hero-search-results"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wiki-index-body">
+  <div class="wiki-index-body__inner">
+    <div class="wiki-home-content wiki-content"><h2 id="what-is-lume">What is Lume?</h2>
+<p><strong>Lume</strong> is a world of ancient magic, warring factions, and forgotten gods. This wiki documents its history, characters, and places for readers, players, and storytellers alike.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>Explore the world of Lume through its key pillars:</p>
+<ul>
+<li><strong>Characters</strong> — The people who shape Lume's fate, from heroes to villains</li>
+<li><strong>Factions</strong> — The great organisations that vie for power</li>
+<li><strong>World</strong> — The cities, ruins, and wildernesses of Lume</li>
+</ul>
+<h2 id="featured-pages">Featured Pages</h2>
+<p>Meet the people and places at the heart of the story:</p>
+<p><a href="wiki/characters/elara.html" class="wiki-kw" style="--kw-color:#8b5cf6" title="Elara Voss"><span class="wiki-kw__label">Elara Voss</span></a> <a href="wiki/characters/kade.html" class="wiki-kw" style="--kw-color:#f59e0b" title="Kade Morrow"><span class="wiki-kw__label">Kade Morrow</span></a> <a href="wiki/world/city-of-lume.html" class="wiki-kw" style="--kw-color:#2563eb" title="City of Lume"><span class="wiki-kw__label">City of Lume</span></a> <a href="wiki/factions/order-of-dawn.html" class="wiki-kw" style="--kw-color:#f59e0b" title="Order of Dawn"><span class="wiki-kw__label">Order of Dawn</span></a> <a href="wiki/factions/shadow-syndicate.html" class="wiki-kw" style="--kw-color:#6b7280" title="Shadow Syndicate"><span class="wiki-kw__label">Shadow Syndicate</span></a></p>
+<h2 id="contributing">Contributing</h2>
+<p>This wiki is a collaborative effort. To add or edit pages, edit the markdown files in the <code>/data</code> directory and rebuild with <code>wikifi</code>.</p></div>
+    <section>
+      <div class="wiki-page-grid__title">All Pages</div>
+      <div class="wiki-page-grid__items">
+        <a class="wiki-page-card" href="wiki/characters/index.html" style="--card-color:#8b5cf6"><div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg></div><div class="wiki-page-card__body"><span class="wiki-page-card__name">Characters</span><span class="wiki-page-card__excerpt">The people who shape the fate of City Of Lume. From the operatives of the Order Of Dawn to the shadows of the Shadow Syndicate, each character carries their own motives, histories, and secrets. Below…</span></div></a><a class="wiki-page-card" href="wiki/factions/index.html" style="--card-color:#6b7080"><div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg></div><div class="wiki-page-card__body"><span class="wiki-page-card__name">Factions</span></div></a><a class="wiki-page-card" href="wiki/world/index.html" style="--card-color:#2563eb"><div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg></div><div class="wiki-page-card__body"><span class="wiki-page-card__name">World</span><span class="wiki-page-card__excerpt">The geography, cities, ruins, and wildernesses that make up the known world of Lume. Everything from the grand City Of Lume to the haunted depths of The Hollow is documented here.</span></div></a><a class="wiki-page-card" href="wiki/welcome.html" style="--card-color:#2563eb"><div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div class="wiki-page-card__body"><span class="wiki-page-card__name">Home</span><span class="wiki-page-card__excerpt">Lume is a world of ancient magic, warring factions, and forgotten gods. This wiki documents its history, characters, and places for readers, players, and storytellers alike. Explore the world of Lume…</span></div></a><a class="wiki-page-card" href="wiki/characters/elara.html" style="--card-color:#8b5cf6"><div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div class="wiki-page-card__body"><span class="wiki-page-card__name">Elara Voss</span><span class="wiki-page-card__excerpt">Elara Voss is a Luminal Weaver and a senior member of the Order Of Dawn. Born in the lower districts of City Of Lume, she taught herself magic from salvaged texts before being recruited by the Order a…</span></div></a><a class="wiki-page-card" href="wiki/characters/kade.html" style="--card-color:#f59e0b"><div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div class="wiki-page-card__body"><span class="wiki-page-card__name">Kade Morrow</span><span class="wiki-page-card__excerpt">Kade Morrow is a Sentinel of the Order Of Dawn and field partner to Elara. He is originally from the Northern Reaches and joined the Order after the destruction of his home village, an attack he attri…</span></div></a><a class="wiki-page-card" href="wiki/factions/order-of-dawn.html" style="--card-color:#f59e0b"><div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div class="wiki-page-card__body"><span class="wiki-page-card__name">Order of Dawn</span><span class="wiki-page-card__excerpt">The Order of Dawn is one of the oldest institutions in City Of Lume, founded three centuries ago in the aftermath of the Shattering. Its mandate is the protection of Lume from magical threats, rogue a…</span></div></a><a class="wiki-page-card" href="wiki/factions/shadow-syndicate.html" style="--card-color:#6b7280"><div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div class="wiki-page-card__body"><span class="wiki-page-card__name">Shadow Syndicate</span><span class="wiki-page-card__excerpt">The Shadow Syndicate is a secretive organisation operating across Lume and beyond. Little is verified — most information comes from intercepted communications and the accounts of defectors. The Syndic…</span></div></a><a class="wiki-page-card" href="wiki/world/city-of-lume.html" style="--card-color:#2563eb"><div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div class="wiki-page-card__body"><span class="wiki-page-card__name">City of Lume</span><span class="wiki-page-card__excerpt">The City of Lume is the largest settlement in the known world and the political, magical, and economic centre of the region. It sits at the mouth of the Vael River on a wide coastal plain, with the el…</span></div></a><a class="wiki-page-card" href="wiki/world/the-hollow.html" style="--card-color:#6b7280"><div class="wiki-page-card__icon wiki-page-card__icon--placeholder"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div class="wiki-page-card__body"><span class="wiki-page-card__name">The Hollow</span><span class="wiki-page-card__excerpt">The Hollow is the abandoned lower district of City Of Lume, located beneath the Ashwood neighbourhood at the base of the Citadel Ridge. It was evacuated following the Hollow Incident approximately for…</span></div></a>
+      </div>
+    </section>
+  </div>
+</div>
+
+<footer class="wiki-footer">
+  <div class="wiki-footer__inner">
+    Chronicles of Lume &mdash; powered by <a href="https://github.com/wikifi/wikifi" target="_blank">wikifi</a>
+  </div>
+</footer>
+
+<script>
+  window.WIKI_ASSETS = "wiki/";
+  window.WIKI_IS_HOME = true;
+</script>
+<script src="wiki/assets/wiki.js"></script>
+</body>
+</html>

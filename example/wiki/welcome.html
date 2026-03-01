@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to the Chronicles of Lume &ndash; Chronicles of Lume</title>
+  <meta name="description" content="Lume is a world of ancient magic, warring factions, and forgotten gods. This wiki documents its history, characters, and places for readers, players, and storyt">
+
+  <link rel="stylesheet" href="assets/style.css">
+  
+</head>
+<body>
+
+<header class="wiki-header">
+  <div class="wiki-header__inner">
+    <a class="wiki-header__logo" href="../index.html">
+      
+      <span class="wiki-header__title">Chronicles of Lume</span>
+    </a>
+    <div class="wiki-header__sep"></div>
+    <div class="wiki-header__search">
+      <div class="search-box">
+        <input type="text" id="search-input" class="search-box__input" placeholder="Search wiki…" autocomplete="off">
+        <button class="search-box__btn" onclick="wikiSearch.toggle()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <div class="search-box__results" id="search-results"></div>
+      </div>
+    </div>
+    <nav class="wiki-header__nav">
+      <a class="wiki-header__nav-link" href="../index.html">Home</a><a class="wiki-header__nav-link" href="characters/index.html">Characters</a><a class="wiki-header__nav-link" href="factions/index.html">Factions</a><a class="wiki-header__nav-link" href="world/index.html">World</a><a class="wiki-header__nav-link" href="all-pages.html">All Pages</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wiki-layout">
+
+<aside class="wiki-sidebar">
+  <div class="wiki-sidebar__inner">
+    <div class="wiki-sidebar__section">
+      <span class="wiki-sidebar__section-title">Navigation</span>
+      <a class="wiki-sidebar__link" href="../index.html">Home</a><a class="wiki-sidebar__link" href="characters/index.html">Characters</a><a class="wiki-sidebar__link" href="factions/index.html">Factions</a><a class="wiki-sidebar__link" href="world/index.html">World</a><a class="wiki-sidebar__link" href="all-pages.html">All Pages</a>
+    </div>
+    <div class="wiki-sidebar__section">
+      <span class="wiki-sidebar__section-title">Wiki</span>
+      <a class="wiki-sidebar__link" href="../index.html">Home</a>
+      <a class="wiki-sidebar__link" href="all-pages.html">All Pages</a>
+    </div>
+    
+  </div>
+</aside>
+
+<main class="wiki-main">
+
+  <div class="wiki-page-hero wiki-page-hero--no-image" >
+    
+    <div class="wiki-page-hero__content">
+      <nav class="wiki-breadcrumb"><a class="wiki-breadcrumb__item" href="../index.html">Home</a><span class="wiki-breadcrumb__sep">/</span><span class="wiki-breadcrumb__item wiki-breadcrumb__item--active">Welcome</span></nav>
+      <h1 class="wiki-page-title" style="--page-accent:#2563eb">
+        
+        <span>
+          Welcome to the Chronicles of Lume
+          <span class="wiki-page-title__accent"></span>
+        </span>
+      </h1>
+    </div>
+  </div>
+
+  <div class="wiki-main__inner">
+    
+    
+    <div class="wiki-content">
+      <h2 id="what-is-lume">What is Lume?</h2>
+<p><strong>Lume</strong> is a world of ancient magic, warring factions, and forgotten gods. This wiki documents its history, characters, and places for readers, players, and storytellers alike.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>Explore the world of Lume through its key pillars:</p>
+<ul>
+<li><strong>Characters</strong> — The people who shape Lume's fate, from heroes to villains</li>
+<li><strong>Factions</strong> — The great organisations that vie for power</li>
+<li><strong>World</strong> — The cities, ruins, and wildernesses of Lume</li>
+</ul>
+<h2 id="featured-pages">Featured Pages</h2>
+<p>Meet the people and places at the heart of the story:</p>
+<p><a href="characters/elara.html" class="wiki-kw" style="--kw-color:#8b5cf6" title="Elara Voss"><span class="wiki-kw__label">Elara Voss</span></a> <a href="characters/kade.html" class="wiki-kw" style="--kw-color:#f59e0b" title="Kade Morrow"><span class="wiki-kw__label">Kade Morrow</span></a> <a href="world/city-of-lume.html" class="wiki-kw" style="--kw-color:#2563eb" title="City of Lume"><span class="wiki-kw__label">City of Lume</span></a> <a href="factions/order-of-dawn.html" class="wiki-kw" style="--kw-color:#f59e0b" title="Order of Dawn"><span class="wiki-kw__label">Order of Dawn</span></a> <a href="factions/shadow-syndicate.html" class="wiki-kw" style="--kw-color:#6b7280" title="Shadow Syndicate"><span class="wiki-kw__label">Shadow Syndicate</span></a></p>
+<h2 id="contributing">Contributing</h2>
+<p>This wiki is a collaborative effort. To add or edit pages, edit the markdown files in the <code>/data</code> directory and rebuild with <code>wikifi</code>.</p>
+    </div>
+  </div>
+
+
+</main>
+</div>
+
+<footer class="wiki-footer">
+  <div class="wiki-footer__inner">
+    Chronicles of Lume &mdash; powered by <a href="https://github.com/wikifi/wikifi" target="_blank">wikifi</a>
+  </div>
+</footer>
+
+<script>
+  window.WIKI_ASSETS = "";
+</script>
+<script src="assets/wiki.js"></script>
+</body>
+</html>

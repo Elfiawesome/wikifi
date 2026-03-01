@@ -1,0 +1,102 @@
+[
+  {
+    "key": "characters/elara",
+    "url": "characters/elara.html",
+    "title": "Elara Voss",
+    "name": "Elara Voss",
+    "color": "#8b5cf6",
+    "icon": "",
+    "excerpt": "Elara Voss is a Luminal Weaver and a senior member of the Order Of Dawn. Born in the lower districts of City Of Lume, she taught herself magic from salvaged texts before being recruited by the Order a…",
+    "type": "page"
+  },
+  {
+    "key": "characters/kade",
+    "url": "characters/kade.html",
+    "title": "Kade Morrow",
+    "name": "Kade Morrow",
+    "color": "#f59e0b",
+    "icon": "",
+    "excerpt": "Kade Morrow is a Sentinel of the Order Of Dawn and field partner to Elara. He is originally from the Northern Reaches and joined the Order after the destruction of his home village, an attack he attri…",
+    "type": "page"
+  },
+  {
+    "key": "factions/order-of-dawn",
+    "url": "factions/order-of-dawn.html",
+    "title": "Order of Dawn",
+    "name": "Order of Dawn",
+    "color": "#f59e0b",
+    "icon": "",
+    "excerpt": "The Order of Dawn is one of the oldest institutions in City Of Lume, founded three centuries ago in the aftermath of the Shattering. Its mandate is the protection of Lume from magical threats, rogue a…",
+    "type": "page"
+  },
+  {
+    "key": "factions/shadow-syndicate",
+    "url": "factions/shadow-syndicate.html",
+    "title": "Shadow Syndicate",
+    "name": "Shadow Syndicate",
+    "color": "#6b7280",
+    "icon": "",
+    "excerpt": "The Shadow Syndicate is a secretive organisation operating across Lume and beyond. Little is verified — most information comes from intercepted communications and the accounts of defectors. The Syndic…",
+    "type": "page"
+  },
+  {
+    "key": "welcome",
+    "url": "welcome.html",
+    "title": "Welcome to the Chronicles of Lume",
+    "name": "Home",
+    "color": "#2563eb",
+    "icon": "",
+    "excerpt": "Lume is a world of ancient magic, warring factions, and forgotten gods. This wiki documents its history, characters, and places for readers, players, and storytellers alike. Explore the world of Lume…",
+    "type": "page"
+  },
+  {
+    "key": "world/city-of-lume",
+    "url": "world/city-of-lume.html",
+    "title": "City of Lume",
+    "name": "City of Lume",
+    "color": "#2563eb",
+    "icon": "",
+    "excerpt": "The City of Lume is the largest settlement in the known world and the political, magical, and economic centre of the region. It sits at the mouth of the Vael River on a wide coastal plain, with the el…",
+    "type": "page"
+  },
+  {
+    "key": "world/the-hollow",
+    "url": "world/the-hollow.html",
+    "title": "The Hollow",
+    "name": "The Hollow",
+    "color": "#6b7280",
+    "icon": "",
+    "excerpt": "The Hollow is the abandoned lower district of City Of Lume, located beneath the Ashwood neighbourhood at the base of the Citadel Ridge. It was evacuated following the Hollow Incident approximately for…",
+    "type": "page"
+  },
+  {
+    "key": "characters",
+    "url": "characters/index.html",
+    "title": "Characters",
+    "name": "Characters",
+    "color": "#8b5cf6",
+    "icon": "",
+    "excerpt": "The people who shape the fate of City Of Lume. From the operatives of the Order Of Dawn to the shadows of the Shadow Syndicate, each character carries their own motives, histories, and secrets. Below…",
+    "type": "folder"
+  },
+  {
+    "key": "factions",
+    "url": "factions/index.html",
+    "title": "Factions",
+    "name": "Factions",
+    "color": "#6b7080",
+    "icon": "",
+    "excerpt": "",
+    "type": "folder"
+  },
+  {
+    "key": "world",
+    "url": "world/index.html",
+    "title": "World",
+    "name": "World",
+    "color": "#2563eb",
+    "icon": "",
+    "excerpt": "The geography, cities, ruins, and wildernesses that make up the known world of Lume. Everything from the grand City Of Lume to the haunted depths of The Hollow is documented here.",
+    "type": "folder"
+  }
+]
